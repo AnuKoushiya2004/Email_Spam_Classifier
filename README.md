@@ -12,65 +12,53 @@ This project demonstrates the complete ML workflow from data preprocessing to mo
 
 # This project is divided into 6 major modules:
 
-Data Loading Module
+# 1.Data Loading Module
 
 Loads the spam dataset from CSV
-
 Selects and renames required columns
 
-Data Preprocessing Module
+# 2.Data Preprocessing Module
 
 Label encoding (Spam / Ham)
-
 Text cleaning and preparation
 
-Feature Extraction Module
+# 3.Feature Extraction Module
 
 TF-IDF Vectorization
-
 Stop-word removal and feature limiting
 
-Model Training Module
+# 4.Model Training Module
 
 Naive Bayes
-
 Logistic Regression
-
 Support Vector Machine (SVM)
 
-Model Evaluation Module
+# 5.Model Evaluation Module
 
 Accuracy score
-
 Classification report
-
 Confusion matrix visualization
 
-Prediction Module
+# 6.Prediction Module
 
 Classifies new/unseen email text
-
 Outputs Spam or Ham result
 
 ### III. Technologies Used
-Backend & Core
+# Backend & Core
 
 Python 🐍
-
 Pandas, NumPy
-
 Scikit-learn
 
-NLP
+# NLP
 
 TF-IDF Vectorizer
-
 Text preprocessing techniques
 
-Visualization
+# Visualization
 
 Matplotlib
-
 Seaborn
 
 ### IV Features
@@ -102,14 +90,14 @@ Instant classification output
 
 ### V. How to Run the Project
 # 1️⃣ Clone the Repository
-# git clone https://github.com/your-username/Email-Spam-Classifier.git
-# cd Email-Spam-Classifier
+git clone https://github.com/your-username/Email-Spam-Classifier.git
+cd Email-Spam-Classifier
 
 # 2️⃣ Install Dependencies
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 # 3️⃣ Run the Program
-# python spam_classifier.py
+python spam_classifier.py
 
 ### VII. Testing
 
