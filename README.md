@@ -10,93 +10,90 @@ This project demonstrates the complete ML workflow from data preprocessing to mo
 
 ## II. Project Modules
 
-# This project is divided into 6 major modules:
+This project is divided into 6 major modules:
 
-# 1.Data Loading Module
+#### 1.Data Loading Module
 
 Loads the spam dataset from CSV
 Selects and renames required columns
 
-# 2.Data Preprocessing Module
+#### 2.Data Preprocessing Module
 
 Label encoding (Spam / Ham)
 Text cleaning and preparation
 
-# 3.Feature Extraction Module
+#### 3.Feature Extraction Module
 
 TF-IDF Vectorization
 Stop-word removal and feature limiting
 
-# 4.Model Training Module
+#### 4.Model Training Module
 
 Naive Bayes
 Logistic Regression
 Support Vector Machine (SVM)
 
-# 5.Model Evaluation Module
+#### 5.Model Evaluation Module
 
 Accuracy score
 Classification report
 Confusion matrix visualization
 
-# 6.Prediction Module
+#### 6.Prediction Module
 
 Classifies new/unseen email text
 Outputs Spam or Ham result
 
 ### III. Technologies Used
-# Backend & Core
-
+#### Backend & Core
 Python 🐍
 Pandas, NumPy
 Scikit-learn
 
-# NLP
-
+#### NLP
 TF-IDF Vectorizer
 Text preprocessing techniques
 
-# Visualization
-
+##### Visualization
 Matplotlib
 Seaborn
 
 ### IV Features
-# 1️⃣ Email Spam Detection
+1️⃣ Email Spam Detection
 
 Classifies messages into Spam or Ham
 Works on real-world text input
 
-# 2️⃣ Multiple ML Models
+2️⃣ Multiple ML Models
 
 Naive Bayes
 Logistic Regression
 Support Vector Machine (Best Accuracy)
 
-# 3️⃣ Performance Evaluation
+3️⃣ Performance Evaluation
 
 Accuracy comparison across models
 Precision, Recall, F1-score
 
-#4️⃣ Confusion Matrix Visualization
+4️⃣ Confusion Matrix Visualization
 
 Graphical representation of predictions
 Easy interpretation of model performance
 
-# 5️⃣ Custom Email Prediction
+5️⃣ Custom Email Prediction
 
 User can test any email message
 Instant classification output
 
 ### V. How to Run the Project
-# 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/Email-Spam-Classifier.git
 cd Email-Spam-Classifier
 
-# 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-# 3️⃣ Run the Program
+3️⃣ Run the Program
 python spam_classifier.py
 
 ### VII. Testing
@@ -112,16 +109,16 @@ Integrate Deep Learning models (LSTM, BERT)
 Save trained models using pickle
 Add real-time email integration
 
-## 📜 License
+### 📜 License
 
 This project is licensed under the MIT License — free for academic and personal use.
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome.
 Feel free to fork the repository and submit a pull request.
 
-## ⭐ Acknowledgements
+### ⭐ Acknowledgements
 
 Scikit-learn for ML models
 Matplotlib & Seaborn for visualization
